@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Treenation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,41 +6,42 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all project dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
+### Implementation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a React App with Typescript which gives you information about Species for any Plantation Ptojects.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- You see a filter on the top which is a dropdown to select your desired project. First one is selected by default.
+- On the basis of project selected, a list of species is displayed below. It is a paginated table.
+- On click of one of those species, you are redirected to its detail page for more information. You can also visit the detail page with the path `/species/{species_id}`
+- There is also a request counter which updates as you make an API call. It is also maintained in local storage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Application level cache is enabled which also helps user to save requests.
 
-### `npm run eject`
+### Libraries Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `Redux` for state management.
+- `Axios` for API calls
+- `React Router` for navigation.
+- `Material UI` for designing.
+- `Jest` for unit testing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Miscellaneous
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+With the time limit and my current commitments, I've been able to build up a reasonable application fulfilling the mentioned constraints.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+It is obviously not perfect and has some known issues.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+It was fun doing this exercise. Thank you!

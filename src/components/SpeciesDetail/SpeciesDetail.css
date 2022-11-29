@@ -1,0 +1,79 @@
+.detail-header {
+  background-color: #7ca674;
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2%;
+}
+
+.grid {
+  padding-top: 5% !important;
+}
+
+.cs-heading {
+  text-align: left;
+  font-size: xxx-large;
+  font-family: serif;
+  padding-bottom: 3%;
+}
+
+.divider {
+  margin-top: 5% !important;
+  margin-bottom: 3% !important;
+}
+
+.stock-info {
+  float: left;
+  margin-left: 5%;
+}
+
+.price {
+  float: right;
+  margin-right: 25%;
+  font-size: xx-large;
+  color: green;
+}
+
+.chip {
+  height: 5vh !important;
+  width: 9vw !important;
+}
+
+.in-stock {
+  font-size: small;
+  color: cornflowerblue;
+  padding-top: 0;
+  margin-top: 3%;
+}
+
+.less-qty {
+  color: darkred;
+}
+
+.slider {
+  width: 30% !important;
+  color: cadetblue !important;
+  margin-left: 3% !important;
+}
+
+.des {
+  text-align: left;
+}
+
+.nav {
+  position: absolute;
+  align-items: left;
+  left: 0;
+  margin-left: 8%;
+  color: white;
+}
+
+.no-data {
+  margin-top: 20%;
+  font-size: xxx-large;
+  color: lightgrey;
+}

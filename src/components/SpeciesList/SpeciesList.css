@@ -1,0 +1,31 @@
+.app-content {
+  width: 75%;
+  display: inline-block;
+}
+
+.sp-header {
+  font-size: x-large;
+  font-family: serif;
+  margin-bottom: 3%;
+  color: midnightblue;
+}
+
+.sp-row {
+  cursor: pointer;
+}
+
+.sp-item {
+  font-size: larger !important;
+  padding-left: 5% !important;
+}
+
+.sp-stock {
+  min-width: 60%;
+}
+
+.limit-err {
+  margin: 0;
+  font-size: medium;
+  padding-top: 1%;
+  color: darkred;
+}
